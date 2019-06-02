@@ -1,4 +1,15 @@
-let a = ["ant", "Bat", "cat", 34];
+let num = 67;
 
-let result = a.join().split();
-console.log(a == result);
+//You have to store in variable first ohterwise toString cannot work on bare integer
+num.toString();
+
+console.log(num);
+
+//Another way of converting to string
+String(num);
+
+//COnverting to number
+console.log(Number("627876"));
+
+//Combination--COnverts to number first then to string
+String(Number("8977989083"));
