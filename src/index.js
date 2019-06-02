@@ -1,11 +1,10 @@
-let a = [7, 4, 24, 90, 21];
-//Sort arranges in alphabetical order
-console.log(a.sort());
+let a = ["ant", "Bat", "cat", 34];
 
-a.push(76);
-console.log(a);
+//Join converts an array into a string
+console.log(a.join(""));
 
-a.push("goo"); //Adds element at the end
-console.log(a);
+console.log(a.join(", "));
 
-a.pop(); //Removes last Element
+console.log(a.join("---"));
+
+console.log(a.join());
